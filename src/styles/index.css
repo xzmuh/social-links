@@ -1,0 +1,98 @@
+
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+
+*{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh; 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: #FAF7FD;
+}
+
+.main{
+    display: flex;
+    width: 450px;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: -100px;
+}
+
+.perfil{
+    margin-top: 70px;
+    display: flex;
+    width: 200px;
+    height: 280px;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+}
+
+.perfil div img{
+    border: 2px solid white;
+    outline-style: solid;
+    outline-color: #BB99DD;
+    margin: 20px 0px;
+    width: 160px;
+    border-radius: 50%;
+}
+
+.perfil div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    width: 320px;
+    height: 300px;
+    flex-direction: column;
+    justify-content: top;
+    gap: 0.8rem;
+    /* border: 1px solid rgb(197, 0, 0); */
+}
+
+.redes-sociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -40px;
+    width: 340px;
+    height: 40px;
+    gap: 1.5rem;
+    font-size: 20px;
+    /* border: 1px solid rgb(197, 0, 0); */
+}
+
+button{
+    color: #BB99DD;
+    padding: 15px 25px;
+    border: 2px #BB99DD solid;
+    border-radius: 3px;
+    background-color: transparent;
+}
+
+button:hover{
+    transition: 0.6s;
+    background-color: #cfa6f7;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+p{
+    color: #BB99DD;
+}
